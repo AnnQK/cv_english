@@ -8,3 +8,12 @@
 - My projects on [GitHub - AnnKQ](https://github.com/AnnQK)
 
 ---
+
+#### About me
+
+I love problem solving and seeing results of my work. In September i decided to try something new - programming, and fall in love with this (sometimes it's love-hate relationships).  
+I am good at structuring information, planning my tasks and meet deadlines.  
+My goal in a short distance is create a training app for me and my friends.  
+My long-term goal is became a professional developer.
+
+---
