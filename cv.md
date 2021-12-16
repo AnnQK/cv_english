@@ -17,3 +17,31 @@ My goal in a short distance is create a training app for me and my friends.
 My long-term goal is became a professional developer.
 
 ---
+
+#### My Skills
+
+- HTML/CSS
+  - SASS
+  - BEM
+- JavaScript basics
+- Python basics
+- Git/GitHub
+- English intermediate
+
+---
+
+#### My Code
+
+```
+function createUserName(accs) {
+  accs.forEach(function (acc) {
+    acc.username = acc.owner
+      .toLowerCase()
+      .split(' ')
+      .map(name => name[0])
+      .join('');
+  });
+}
+```
+
+---
