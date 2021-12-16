@@ -45,3 +45,25 @@ function createUserName(accs) {
 ```
 
 ---
+
+#### Experience
+
+- [My CV in Russian](https://annqk.github.io/my_personal_site/)
+- [Simple BMI Calculator](https://annqk.github.io/bmi_calculator/) - Worked with DOM and Functions. Trained my SASS and BEM skills.
+- [Responsive survey form](https://annqk.github.io/Survey-form/)
+
+---
+
+#### Education
+
+- 2020 Coursera - Основы программирования на Python
+- 2021 freeCodeCamp - ResponsiveWeb Design
+- 2021 - present time: The Complete JavaScript Course 2021
+- 2016 - 2022: Ryazan State Medical University
+
+---
+
+#### English level
+
+B1 - B2  
+Most of the time i can understand and retell main ideas of articles and videos. I read documentation in english.
