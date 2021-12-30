@@ -84,3 +84,9 @@ h1 {
   width: 70%;
   margin: auto;
 }
+
+.section-work {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
