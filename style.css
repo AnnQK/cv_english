@@ -95,3 +95,9 @@ h1 {
 .projects-link {
   line-height: 30px;
 }
+
+.container-footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
