@@ -13,3 +13,9 @@ body {
 h1 {
   font-family: "Secular One", sans-serif;
 }
+
+.container {
+  margin: 0 auto;
+  max-width: 1440px;
+  width: 70%;
+}
