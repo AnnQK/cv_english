@@ -64,3 +64,18 @@ h1 {
 .contacts-link {
   line-height: 30px;
 }
+
+.section-skills {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap-reverse;
+  width: 100%;
+}
+
+.tech {
+  width: max-content;
+}
+
+.education-item {
+  line-height: 30px;
+}
