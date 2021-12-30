@@ -145,6 +145,10 @@ a:hover {
   line-height: 30px;
 }
 
+pre {
+  white-space: pre-wrap;
+}
+
 .container-footer {
   display: flex;
   justify-content: space-around;
