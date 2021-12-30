@@ -158,6 +158,33 @@
             </ul>
           </div>
         </section>
+        <section class="section section-work">
+          <div class="projects" id="projects">
+            <h2 class="section-title">Projects</h2>
+            <ul class="projects-list">
+              <li class="projects-item"></li>
+              <li class="projects-item"></li>
+              <li class="projects-item"></li>
+              <li class="projects-item"></li>
+            </ul>
+          </div>
+
+          <div class="code" id="code">
+            <h2 class="section-title">Code example</h2>
+            <pre><code>
+            function createUserName(accs) {
+              accs.forEach(function (acc) {
+                acc.username = acc.owner
+                  .toLowerCase()
+                  .split(' ')
+                  .map(name => name[0])
+                  .join('');
+              });
+            }
+          </code>
+        </pre>
+          </div>
+        </section>
       </div>
     </main>
     <footer>
