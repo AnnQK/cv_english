@@ -91,3 +91,7 @@ h1 {
   justify-content: space-around;
   align-items: baseline;
 }
+
+.projects-link {
+  line-height: 30px;
+}
