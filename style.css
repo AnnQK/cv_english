@@ -19,3 +19,16 @@ h1 {
   max-width: 1440px;
   width: 70%;
 }
+
+.nav-list {
+  display: flex;
+  align-items: baseline;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+.nav-link {
+  margin-left: 0.6rem;
+  line-height: 30px;
+}
