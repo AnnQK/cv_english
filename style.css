@@ -6,4 +6,10 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  font-family: "Montserrat", sans-serif;
+  color: #2f3a8f;
+}
+
+h1 {
+  font-family: "Secular One", sans-serif;
 }
