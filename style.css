@@ -20,6 +20,13 @@ h1 {
   width: 70%;
 }
 
+.section {
+  background-color: #ccd1e4;
+  padding: 1rem;
+  margin-bottom: 0.8rem;
+  border-radius: 1rem;
+}
+
 .nav-list {
   display: flex;
   align-items: baseline;
@@ -31,4 +38,21 @@ h1 {
 .nav-link {
   margin-left: 0.6rem;
   line-height: 30px;
+}
+
+.section-info {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.section-name {
+  text-align: center;
+}
+
+.contacts-list {
+  list-style: none;
+  text-align: right;
+  padding: 1rem;
 }
