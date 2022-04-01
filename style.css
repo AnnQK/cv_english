@@ -1,0 +1,156 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: "Montserrat", sans-serif;
+  color: #2f3a8f;
+}
+
+h1 {
+  font-family: "Secular One", sans-serif;
+}
+
+.nav-link,
+.contacts-link,
+.education-link,
+.projects-link {
+  text-decoration: none;
+  position: relative;
+  color: #2f3a8f;
+  transition: color 200ms ease-in;
+}
+.nav-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+  width: 100%;
+  height: 2px;
+  background-color: #fe7e6d;
+}
+.contacts-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+  width: 100%;
+  height: 2px;
+  background-color: #fe7e6d;
+}
+.education-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+  width: 100%;
+  height: 2px;
+  background-color: #fe7e6d;
+}
+.projects-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+  width: 100%;
+  height: 2px;
+  background-color: #fe7e6d;
+}
+a:hover {
+  color: #fe7e6d;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1440px;
+  width: 70%;
+}
+
+.section {
+  background-color: #ccd1e4;
+  padding: 1rem;
+  margin-bottom: 0.8rem;
+  border-radius: 1rem;
+}
+
+.section-title {
+  text-align: center;
+}
+
+.nav-list {
+  display: flex;
+  align-items: baseline;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+.nav-link {
+  margin-left: 0.6rem;
+  line-height: 30px;
+}
+
+.section-info {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.section-name {
+  text-align: center;
+}
+
+.contacts-list {
+  list-style: none;
+  text-align: right;
+  padding: 1rem;
+}
+
+.contacts-link {
+  line-height: 30px;
+}
+
+.section-skills {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap-reverse;
+  width: 100%;
+}
+
+.tech {
+  width: max-content;
+}
+
+.education-item {
+  line-height: 30px;
+}
+
+.about {
+  width: 70%;
+  margin: auto;
+}
+
+.section-work {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: baseline;
+}
+
+.projects-link {
+  line-height: 30px;
+}
+
+pre {
+  white-space: pre-wrap;
+}
+
+.container-footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
